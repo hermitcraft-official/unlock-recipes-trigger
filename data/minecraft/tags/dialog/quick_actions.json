@@ -1,0 +1,8 @@
+{
+    "values": [
+        {
+            "id": "unlock_recipes_trigger:quick_actions",
+            "required": false
+        }
+    ]
+}

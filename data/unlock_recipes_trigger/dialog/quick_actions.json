@@ -1,0 +1,34 @@
+{
+    "type": "minecraft:multi_action",
+    "title": "Unlock Recipes Triggers",
+    "external_title": "Unlock Recipes Trigger",
+    "columns": 1,
+    "actions": [
+        {
+            "label": "Unlock Recipes",
+            "tooltip": [
+                "",
+                {
+                    "text": "`/trigger recipeunlock`",
+                    "color": "yellow"
+                },
+                "\n\n",
+                "Unlocks all recipes. There is no undo."
+            ],
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "/trigger recipeunlock"
+            }
+        }
+    ],
+    "exit_action": {
+        "action": {
+            "type": "show_dialog",
+            "dialog": "minecraft:quick_actions"
+        },
+        "label": {
+            "translate": "gui.back"
+        },
+        "width": 200
+    }
+}
